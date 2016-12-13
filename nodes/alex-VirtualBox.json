@@ -164,16 +164,16 @@
           "lo": {
             "tx": {
               "queuelen": "1",
-              "bytes": "326167",
-              "packets": "2552",
+              "bytes": "383523",
+              "packets": "2996",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "326167",
-              "packets": "2552",
+              "bytes": "383523",
+              "packets": "2996",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -182,16 +182,16 @@
           "enp0s3": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "3073768",
-              "packets": "29323",
+              "bytes": "3393335",
+              "packets": "31792",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "254788236",
-              "packets": "191087",
+              "bytes": "262615472",
+              "packets": "198454",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -729,9 +729,9 @@
     "platform_family": "debian",
     "memory": {
       "swap": {
-        "cached": "2108kB",
+        "cached": "3644kB",
         "total": "2093052kB",
-        "free": "2053500kB"
+        "free": "2036832kB"
       },
       "hugepages": {
         "total": "0",
@@ -740,23 +740,23 @@
         "surplus": "0"
       },
       "total": "2048464kB",
-      "free": "97656kB",
-      "buffers": "59056kB",
-      "cached": "635468kB",
-      "active": "869064kB",
-      "inactive": "841260kB",
-      "dirty": "64kB",
+      "free": "197808kB",
+      "buffers": "69612kB",
+      "cached": "505232kB",
+      "active": "874032kB",
+      "inactive": "739136kB",
+      "dirty": "52kB",
       "writeback": "0kB",
-      "anon_pages": "1014232kB",
-      "mapped": "144384kB",
-      "slab": "171544kB",
-      "slab_reclaimable": "145508kB",
-      "slab_unreclaim": "26036kB",
-      "page_tables": "29912kB",
+      "anon_pages": "1035656kB",
+      "mapped": "152804kB",
+      "slab": "168284kB",
+      "slab_reclaimable": "141652kB",
+      "slab_unreclaim": "26632kB",
+      "page_tables": "31064kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "3117284kB",
-      "committed_as": "4186760kB",
+      "committed_as": "4657456kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "0kB",
       "vmalloc_chunk": "0kB",
@@ -765,11 +765,11 @@
     "command": {
       "ps": "ps -ef"
     },
-    "uptime_seconds": 10381,
-    "uptime": "2 hours 53 minutes 01 seconds",
-    "idletime_seconds": 9015,
-    "idletime": "2 hours 30 minutes 15 seconds",
-    "ohai_time": 1481623805.0916464,
+    "uptime_seconds": 16328,
+    "uptime": "4 hours 32 minutes 08 seconds",
+    "idletime_seconds": 14466,
+    "idletime": "4 hours 01 minutes 06 seconds",
+    "ohai_time": 1481629752.1215851,
     "shells": [
       "/bin/sh",
       "/bin/dash",
@@ -809,13 +809,13 @@
       },
       "tmpfs": {
         "kb_size": "204848",
-        "kb_used": "60",
-        "kb_available": "204788",
+        "kb_used": "56",
+        "kb_available": "204792",
         "percent_used": "1%",
         "mount": "/run/user/1000",
         "total_inodes": "256058",
-        "inodes_used": "30",
-        "inodes_available": "256028",
+        "inodes_used": "29",
+        "inodes_available": "256029",
         "inodes_percent_used": "1%",
         "fs_type": "tmpfs",
         "mount_options": [
@@ -831,13 +831,13 @@
       },
       "/dev/mapper/ubuntu--vg-root": {
         "kb_size": "23083484",
-        "kb_used": "4874888",
-        "kb_available": "17012976",
+        "kb_used": "4885936",
+        "kb_available": "17001928",
         "percent_used": "23%",
         "mount": "/",
         "total_inodes": "1474560",
-        "inodes_used": "266297",
-        "inodes_available": "1208263",
+        "inodes_used": "267144",
+        "inodes_available": "1207416",
         "inodes_percent_used": "19%",
         "fs_type": "ext4",
         "mount_options": [
@@ -871,8 +871,8 @@
       },
       "Downloads": {
         "kb_size": "174671868",
-        "kb_used": "43774244",
-        "kb_available": "130897624",
+        "kb_used": "43817232",
+        "kb_available": "130854636",
         "percent_used": "26%",
         "mount": "/media/sf_Downloads",
         "total_inodes": "1000",
@@ -1073,12 +1073,12 @@
         },
         "tmpfs": {
           "kb_size": "204848",
-          "kb_used": "60",
-          "kb_available": "204788",
+          "kb_used": "56",
+          "kb_available": "204792",
           "percent_used": "1%",
           "total_inodes": "256058",
-          "inodes_used": "30",
-          "inodes_available": "256028",
+          "inodes_used": "29",
+          "inodes_available": "256029",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1101,12 +1101,12 @@
         },
         "/dev/mapper/ubuntu--vg-root": {
           "kb_size": "23083484",
-          "kb_used": "4874888",
-          "kb_available": "17012976",
+          "kb_used": "4885936",
+          "kb_available": "17001928",
           "percent_used": "23%",
           "total_inodes": "1474560",
-          "inodes_used": "266297",
-          "inodes_available": "1208263",
+          "inodes_used": "267144",
+          "inodes_available": "1207416",
           "inodes_percent_used": "19%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1145,8 +1145,8 @@
         },
         "Downloads": {
           "kb_size": "174671868",
-          "kb_used": "43774244",
-          "kb_available": "130897624",
+          "kb_used": "43817232",
+          "kb_available": "130854636",
           "percent_used": "26%",
           "total_inodes": "1000",
           "inodes_used": "0",
@@ -1392,12 +1392,12 @@
         },
         "/run": {
           "kb_size": "204848",
-          "kb_used": "6344",
-          "kb_available": "198504",
+          "kb_used": "6352",
+          "kb_available": "198496",
           "percent_used": "4%",
           "total_inodes": "256058",
-          "inodes_used": "685",
-          "inodes_available": "255373",
+          "inodes_used": "690",
+          "inodes_available": "255368",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1414,12 +1414,12 @@
         },
         "/": {
           "kb_size": "23083484",
-          "kb_used": "4874888",
-          "kb_available": "17012976",
+          "kb_used": "4885936",
+          "kb_available": "17001928",
           "percent_used": "23%",
           "total_inodes": "1474560",
-          "inodes_used": "266297",
-          "inodes_available": "1208263",
+          "inodes_used": "267144",
+          "inodes_available": "1207416",
           "inodes_percent_used": "19%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1458,8 +1458,8 @@
           "kb_available": "5116",
           "percent_used": "1%",
           "total_inodes": "256058",
-          "inodes_used": "6",
-          "inodes_available": "256052",
+          "inodes_used": "7",
+          "inodes_available": "256051",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1520,8 +1520,8 @@
         },
         "/media/sf_Downloads": {
           "kb_size": "174671868",
-          "kb_used": "43774244",
-          "kb_available": "130897624",
+          "kb_used": "43817232",
+          "kb_available": "130854636",
           "percent_used": "26%",
           "total_inodes": "1000",
           "inodes_used": "0",
@@ -1540,12 +1540,12 @@
         },
         "/run/user/1000": {
           "kb_size": "204848",
-          "kb_used": "60",
-          "kb_available": "204788",
+          "kb_used": "56",
+          "kb_available": "204792",
           "percent_used": "1%",
           "total_inodes": "256058",
-          "inodes_used": "30",
-          "inodes_available": "256028",
+          "inodes_used": "29",
+          "inodes_available": "256029",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1907,13 +1907,13 @@
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "204848",
-          "kb_used": "6344",
-          "kb_available": "198504",
+          "kb_used": "6352",
+          "kb_available": "198496",
           "percent_used": "4%",
           "mount": "/run",
           "total_inodes": "256058",
-          "inodes_used": "685",
-          "inodes_available": "255373",
+          "inodes_used": "690",
+          "inodes_available": "255368",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -1928,13 +1928,13 @@
         "/dev/mapper/ubuntu--vg-root,/": {
           "device": "/dev/mapper/ubuntu--vg-root",
           "kb_size": "23083484",
-          "kb_used": "4874888",
-          "kb_available": "17012976",
+          "kb_used": "4885936",
+          "kb_available": "17001928",
           "percent_used": "23%",
           "mount": "/",
           "total_inodes": "1474560",
-          "inodes_used": "266297",
-          "inodes_available": "1208263",
+          "inodes_used": "267144",
+          "inodes_available": "1207416",
           "inodes_percent_used": "19%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1971,8 +1971,8 @@
           "percent_used": "1%",
           "mount": "/run/lock",
           "total_inodes": "256058",
-          "inodes_used": "6",
-          "inodes_available": "256052",
+          "inodes_used": "7",
+          "inodes_available": "256051",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2029,8 +2029,8 @@
         "Downloads,/media/sf_Downloads": {
           "device": "Downloads",
           "kb_size": "174671868",
-          "kb_used": "43774244",
-          "kb_available": "130897624",
+          "kb_used": "43817232",
+          "kb_available": "130854636",
           "percent_used": "26%",
           "mount": "/media/sf_Downloads",
           "total_inodes": "1000",
@@ -2041,13 +2041,13 @@
         "tmpfs,/run/user/1000": {
           "device": "tmpfs",
           "kb_size": "204848",
-          "kb_used": "60",
-          "kb_available": "204788",
+          "kb_used": "56",
+          "kb_available": "204792",
           "percent_used": "1%",
           "mount": "/run/user/1000",
           "total_inodes": "256058",
-          "inodes_used": "30",
-          "inodes_available": "256028",
+          "inodes_used": "29",
+          "inodes_available": "256029",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2921,6 +2921,13 @@
           "uid": 999,
           "shell": "/bin/false",
           "gecos": ""
+        },
+        "test1": {
+          "dir": "/tmp/test1",
+          "gid": 4000,
+          "uid": 4000,
+          "shell": "/bin/false",
+          "gecos": "Just a random test user"
         }
       },
       "group": {
@@ -3338,6 +3345,12 @@
           "members": [
 
           ]
+        },
+        "test-group": {
+          "gid": 4000,
+          "members": [
+
+          ]
         }
       }
     },
@@ -3410,6 +3423,22 @@
       },
       "anacron": {
         "version": "2.3-23",
+        "arch": "amd64"
+      },
+      "apache2": {
+        "version": "2.4.18-2ubuntu3.1",
+        "arch": "amd64"
+      },
+      "apache2-bin": {
+        "version": "2.4.18-2ubuntu3.1",
+        "arch": "amd64"
+      },
+      "apache2-data": {
+        "version": "2.4.18-2ubuntu3.1",
+        "arch": "all"
+      },
+      "apache2-utils": {
+        "version": "2.4.18-2ubuntu3.1",
         "arch": "amd64"
       },
       "apg": {
@@ -5028,6 +5057,22 @@
         "version": "0.9.4-1ubuntu1",
         "arch": "amd64"
       },
+      "libapr1": {
+        "version": "1.5.2-3",
+        "arch": "amd64"
+      },
+      "libaprutil1": {
+        "version": "1.5.4-1build1",
+        "arch": "amd64"
+      },
+      "libaprutil1-dbd-sqlite3": {
+        "version": "1.5.4-1build1",
+        "arch": "amd64"
+      },
+      "libaprutil1-ldap": {
+        "version": "1.5.4-1build1",
+        "arch": "amd64"
+      },
       "libapt-inst2.0": {
         "version": "1.2.12~ubuntu16.04.1",
         "arch": "amd64"
@@ -6610,6 +6655,10 @@
       },
       "libltdl7": {
         "version": "2.4.6-0.1",
+        "arch": "amd64"
+      },
+      "liblua5.1-0": {
+        "version": "5.1.5-8ubuntu1",
         "arch": "amd64"
       },
       "liblua5.2-0": {
