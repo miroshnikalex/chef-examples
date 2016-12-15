@@ -3,6 +3,13 @@
 # Recipe:: default
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
+
+group 'web-admin'
+
+user 'web-admin' do
+	group 'web-admin'
+end
+
 package 'Install Apache' do
     case node[:platform]
     when 'redhat', 'centos', 'fedora'
@@ -25,4 +32,7 @@ end
 
 template '/var/www/html/indef.html' do
     source 'index.html.erb'
+    mode '0644'
+    owner 'web-admin'
+    group 'web-admin'
 end

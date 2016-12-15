@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures www-server-install'
 long_description 'Installs/Configures www-server-install'
-version '0.1.0'
+version '0.3.2'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
