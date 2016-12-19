@@ -1,0 +1,24 @@
+{
+   "name": "server",
+   "description": "Standalone server role",
+   "json_class": "Chef::Role",
+   "default_attributes": {
+     "chef_client": {
+       "interval": 300,
+       "splay": 60
+     }
+   },
+   "override_attributes": {
+   },
+   "chef_type": "role",
+   "run_list": ["recipe[chef-client::default]",
+                "recipe[chef-client::delete_validation]",
+                "recipe[www-server-install::default]",
+		"recipe[ntp::install]",
+		"recipe[ntp::ntpd_conf_add]",
+		"recipe[ntp::run]"
+		
+   ],
+   "env_run_lists": {
+   }
+}
